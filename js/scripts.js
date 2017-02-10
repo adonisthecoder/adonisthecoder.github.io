@@ -14,4 +14,4 @@ function getCookie(cname) {
     return "";
 }
 // --------------------
-getCookie("ytVideoID");
+var ytVideoIDVar = getCookie("ytVideoID");
