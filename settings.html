@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/settings-page/style.css">
+      <script src="js/settings-page/scripts.js"></script>
+      <!--<link rel="shortcut icon" type="image/png" href="internet-favicon.png">-->
+      <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <title>Settings</title>
+   </head>
+   <body>
+      <h1>Settings</h1>
+      <a href="index.html" id="link-1">Back to Home</a>
+      <h2>Change Video</h2>
+      <input id="ytVideoIDBox" type="text" onKeyPress="enterPressAlert(event, this)">
+      <br><button type="button" id="button-1" onclick="replaceYTVideo()">Save Changes</button>
+      <p id="message-1"></p>
+   </body>
+</html>

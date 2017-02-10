@@ -1,0 +1,28 @@
+body{
+   font-family: 'Acme', sans-serif;
+   color: black;
+}
+#link-1{
+   font-size: 15px;
+   font-family: 'Roboto', sans-serif;
+}
+#message-1{
+   display: none;
+   font-family: 'Roboto', sans-serif;
+}
+#button-1{
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 20px;
+   font-family: 'Acme', sans-serif;
+   box-shadow: 0 9px #999;
+}
+/* Code below from http://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3 */
+/* The code below was modified by me. */
+#button-1:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* -------------------- */

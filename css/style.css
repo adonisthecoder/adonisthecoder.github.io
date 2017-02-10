@@ -1,0 +1,28 @@
+body{
+   background-color: rgb(51, 204, 51);
+   padding: 15px;
+}
+#yt-video{
+   width: 560px;
+   height: 315px;
+}
+.yt-video-container{
+   width: 560px;
+   height: 315px;
+   margin: auto;
+}
+#settings-icon{
+   width: 100px;
+   position: absolute;
+   left: 1190px;
+   top: -10px;
+}
+/* #pause-slash-play{
+   border: none;
+   background-color: white;
+   color: black;
+   font-size: 20px;
+   margin-top: 5px;
+   cursor: pointer;
+   outline: none;
+} */
