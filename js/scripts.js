@@ -14,5 +14,3 @@ function getCookie(cname) {
     return "";
 }
 // --------------------
-var ytVideoIDVar = getCookie("ytVideoID");
-document.getElementById("yt-video").src="https://www.youtube.com/embed/";
